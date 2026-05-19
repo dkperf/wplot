@@ -27,9 +27,7 @@ My hope is that other people will find this tool useful as well.
 
 If you find this program worthwhile and feel like donating, that would be a first :-)
 
-https://www.paypal.com/donate?token=bYpJxEamo8BxCc6LsmPS8_Dq86UFDfKyT58p2PxWrQQ2Ygj-efzqF75Mv7sl9FZ-si6MuOZaqZrXXSzn
- 
-PayPal - The safer, easier way to pay online! 
+
 ```
 
   wplot  Version 1.33

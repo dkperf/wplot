@@ -1,13 +1,12 @@
 # wplot
 Windows ploting (wplot) Software
-```
+
 wplot
 
 wplot is a quick and easy to use Windows GUI software program for quickly creating and analyzing data plots.
-Create plots with millions of data points in seconds. Fast
+Create plots with millions of data points in seconds. 
 
-Once the data is plotted you can easily use the many tools to explore your plot in great detail by zooming in/out,
-scrolling your plot and much more.
+Once the data is plotted you can easily use the many tools to explore your plot in great detail by zooming in/out,scrolling your plot and much more.
 
 Mutiple objects (data files/sets) can be plotted and overlaid.
 
@@ -31,7 +30,7 @@ If you find this program worthwhile and feel like donating, that would be a firs
 https://www.paypal.com/donate?token=bYpJxEamo8BxCc6LsmPS8_Dq86UFDfKyT58p2PxWrQQ2Ygj-efzqF75Mv7sl9FZ-si6MuOZaqZrXXSzn
  
 PayPal - The safer, easier way to pay online! 
-
+```
 
   wplot  Version 1.33
   

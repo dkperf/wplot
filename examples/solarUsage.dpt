@@ -1,0 +1,60 @@
+
+#
+# wplot command file to show PGE kiloWatt usage per month and year
+#
+
+xdate_3
+yborder %20
+   
+ygridlines 0
+xgridlines 0
+
+.bgcolor 1
+bgcolor xe5e5e5
+ymax 950
+
+plot :year  1:2 t yearSep vline 28  thick
+:year 
+2023-01-01   1
+2024-01-01   1
+2025-01-01   1
+2026-01-01   1
+2027-01-01   1
+end
+
+plot :zero  1:2 t zeroLine hline 1
+:zero
+0 0
+end
+ 
+plot :yearlbl  1:2 t yearLbls labels 16 lt:s80:otc  labelcol 3
+:yearlbl 
+2023-06-20   1100  2023
+2024-06-20   1100  2024
+2025-06-20   1100  2025
+2026-06-20   1100  2026
+end
+
+plot :keys  1:2 t Ledgend labels 13  lt:obl:s60  labelcol 3 colorcol 4 seps c
+:keys
+2024-02-01, -230, PGE   Monthly Totals   (Kwh),  x21A9EB 
+2024-02-01, -290, PGE   Yearly Totals     (Kwh), 16
+2024-02-01, -360, Solar Monthly Totals   (Kwh),  x03DA49 
+2024-02-01, -420, Solar Yearly Totals     (Kwh), x00BB00
+end
+
+
+plot solarUsageYear  1:2/10        t solarYear    bars %10       x00BB00 seps : fat
+plot solarUsageYear  1:2/10 t solarLabels  labels   lt:s50:obc x00BB00 seps : 
+
+plot pgeUsageYear    1:2/10        t pgeYear      bars %5                 16 seps : fat
+plot pgeUsageYear    1:2/10        t pgeYrLabels  labels   lt:s50:a90:oeh 16 seps : 
+
+plot solarUsageMonth 1:2  t solarMonth  bars %80 bt:c8:s150:g0       x03DA49 seps : fat
+plot pgeUsageMonth   1:2  t pgeMonth    bars %80 bt:c16:s150:g0 x21A9EB seps : fat
+
+.  Days
+plot solarUsageDays  1:2*10  t solardays bars %80 bt:c8:s150:g0       12   seps : fat hide
+plot pgeUsageDays    1:2*10  t pgedays   bars %80 bt:cx0EEEEE:s200:g0 15   seps : fat hide
+
+

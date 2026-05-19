@@ -13,7 +13,7 @@ Mutiple objects (data files/sets) can be plotted and overlaid.
 Objects can be individually hidden/viewed as the plot is studied.
 
 wplot does NOT generate data. wplot reads data points from file(s) and generates varied plots based on that data.
-A single Windows executable. Simple installation. Just download executable file and run.
+A single Windows 700K ish executable. Simple installation. Just download executable file and run. 
 wplot is 100% FREE to use. No restrictions of any kind. Donations welcome.
 
 This is an experiment for me. I have used free software for years and felt the need to give back. 

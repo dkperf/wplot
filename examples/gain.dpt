@@ -1,0 +1,20 @@
+
+title  gain
+
+xborder %10 
+yborder %10
+
+xgridlines 12
+ygridlines 12
+
+xtime
+
+plot gain.data  1:2      vspike sizecol 3  t  gain
+plot gain.data  1:4/100  line           16 t  total  thick
+
+plot :hline  1:2  hline  t  zero   6
+
+:hline
+0 0
+end
+

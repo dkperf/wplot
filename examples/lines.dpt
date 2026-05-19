@@ -1,0 +1,14 @@
+
+bgcolor xF8FFF8
+
+xborder %7
+yborder %7
+
+xgridlines 12
+ygridlines 10
+
+xdate
+
+plot lines1.data   1:2  t  lin20  line    x20AA39 
+plot lines2.data   1:2  t  lin40  line    x2044AA 
+

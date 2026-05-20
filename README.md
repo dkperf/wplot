@@ -204,7 +204,8 @@ If you find this program worthwhile and feel like donating, that would be a firs
     Mouse:
        left button      -  pan screen
        Ctrl left button -  show crossHair at cursor.
-                           status line updated with X,Y Pos. information.
+                           status line updated with X,Y Pos. information
+                           and delta x,y values for measurement.
        Shift left button-  zoom in with selection rectangle
        left double click-  make mouse loc center of window.
 
